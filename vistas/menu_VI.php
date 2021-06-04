@@ -217,9 +217,7 @@ class menu_VI
                 <li class="nav-item">
                     <a href="#" class="nav-link" onclick="verModulo('tipos_documentos_VI/crud')"><i class="nav-icon fas fa-th"></i>Tipo Documento</a>
                 </li>
-                <li class="nav-item">
-                    <a href="#" class="nav-link" onclick="verModulo('productos_VI/crud')"><i class="nav-icon fas fa-th"></i>Productos</a>
-                </li>
+                
                 <li class="nav-item">
                     <a href="#" class="nav-link" onclick="verModulo('proveedores_VI/crud')"><i class="nav-icon fas fa-th"></i>Proveedores</a>
                 </li>

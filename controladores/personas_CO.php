@@ -16,6 +16,7 @@ class personas_CO
         $id_tipos_documentos=$_POST["id_tipos_documentos"];
         $documento=$_POST["documento"];
         $correo=$_POST["correo"];
+        $celular=$_POST["celular"];
         $direccion=$_POST["direccion"];
         $fecha_nacimiento=$_POST["fecha_nacimiento"];
         $usuario=$_POST["usuario"];
@@ -26,7 +27,7 @@ class personas_CO
         $personas_MO=new personas_MO($conexion);
         $accesos_MO=new accesos_MO($conexion);
 
-        $personas_MO->guardar($nombre1,$nombre2,$apellido1,$apellido2,$id_tipos_documentos,$documento,$correo, $direccion,$fecha_nacimiento);
+        $personas_MO->guardar($nombre1,$nombre2,$apellido1,$apellido2,$id_tipos_documentos,$documento,$correo,$celular, $direccion,$fecha_nacimiento);
 
         $id_personas=$personas_MO->traerSecuencia()[0]->currval;
 

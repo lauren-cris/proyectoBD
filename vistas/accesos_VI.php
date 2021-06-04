@@ -73,7 +73,7 @@ class accesos_VI
                     foreach($arreglo as $objeto)
                     {
                         ?>
-                        <option value="<?php echo $objeto->id_personas;?>"><?php echo $objeto->nombres." ".$objeto->apellidos;?></option>
+                        <option value="<?php echo $objeto->id_personas;?>"><?php echo $objeto->nombre1." ".$objeto->apellido1;?></option>
                         <?php
                     }
                     ?>

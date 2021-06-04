@@ -66,22 +66,27 @@ class personas_VI
 
 
                 <div class="form-group">
-                    <label for="orden">Documento</label>
+                    <label for="documento">Documento</label>
                     <input type="text" class="form-control" id="documento" name="documento">
                 </div>
 
                 <div class="form-group">
-                    <label for="orden">Correo</label>
+                    <label for="correo">Correo</label>
                     <input type="text" class="form-control" id="correo" name="correo">
                 </div>
 
                 <div class="form-group">
-                    <label for="orden">Direccion</label>
+                    <label for="celular">Celular</label>
+                    <input type="text" class="form-control" id="celular" name="celular">
+                </div>
+
+                <div class="form-group">
+                    <label for="direccion">Direccion</label>
                     <input type="text" class="form-control" id="direccion" name="direccion">
                 </div>
 
                 <div class="form-group">
-                    <label for="orden">Fecha de nacimiento</label>
+                    <label for="fecha_nacimiento">Fecha de nacimiento</label>
                     <input type="date" class="form-control" id="fecha_nacimiento" name="fecha_nacimiento">
                 </div>
                 <div class="mb-3">

@@ -8,9 +8,9 @@ class personas_MO
         $this->conexion=$conexion;
     }
 
-    function guardar($nombre1,$nombre2,$apellido1,$apellido2,$id_tipos_documentos,$documento,$correo,$direccion,$fecha_nacimiento)
+    function guardar($nombre1,$nombre2,$apellido1,$apellido2,$id_tipos_documentos,$documento,$correo,$celular,$direccion,$fecha_nacimiento)
     {
-        $sql = "INSERT INTO city.personas (nombre1,nombre2,apellido1,apellido2,id_tipos_documentos,documento,correo,direccion,fecha_nacimiento) VALUES ('$nombre1','$nombre2','$apellido1','$apellido2','$id_tipos_documentos','$documento','$correo','$direccion','$fecha_nacimiento')";
+        $sql = "INSERT INTO city.personas (nombre1,nombre2,apellido1,apellido2,id_tipos_documentos,documento,correo,celular,direccion,fecha_nacimiento) VALUES ('$nombre1','$nombre2','$apellido1','$apellido2','$id_tipos_documentos','$documento','$correo','$celular','$direccion','$fecha_nacimiento')";
         $this->conexion->consulta($sql);
     }
 
